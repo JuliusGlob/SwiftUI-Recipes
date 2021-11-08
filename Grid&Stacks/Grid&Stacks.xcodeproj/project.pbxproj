@@ -13,6 +13,7 @@
 		3010FF1E27398140009848D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3010FF1D27398140009848D4 /* Preview Assets.xcassets */; };
 		3010FF272739817D009848D4 /* DisplayInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF262739817D009848D4 /* DisplayInGrid.swift */; };
 		3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */; };
+		3010FF2B27399224009848D4 /* matchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */; };
 		3010FF2D27399BF8009848D4 /* WrapHstackMultiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */; };
 		3010FF302739A4E0009848D4 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 3010FF2F2739A4E0009848D4 /* LoremSwiftum */; };
 /* End PBXBuildFile section */
@@ -26,6 +27,7 @@
 		3010FF1F27398140009848D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3010FF262739817D009848D4 /* DisplayInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInGrid.swift; sourceTree = "<group>"; };
 		3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedViewsGrid.swift; sourceTree = "<group>"; };
+		3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchedGeometryEffect.swift; sourceTree = "<group>"; };
 		3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackMultiline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -83,6 +85,7 @@
 			children = (
 				3010FF262739817D009848D4 /* DisplayInGrid.swift */,
 				3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */,
+				3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */,
 				3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */,
 			);
 			path = "Views 1-4";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3010FF272739817D009848D4 /* DisplayInGrid.swift in Sources */,
+				3010FF2B27399224009848D4 /* matchedGeometryEffect.swift in Sources */,
 				3010FF192739813E009848D4 /* ContentView.swift in Sources */,
 				3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */,
 				3010FF172739813E009848D4 /* Grid_StacksApp.swift in Sources */,
