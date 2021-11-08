@@ -45,7 +45,7 @@ struct PinnedViewsGrid: View {
             }
             .navigationTitle("Pinned Views Demo")
             .frame(width: .infinity)
-        }
+        } 
     }
 }
 
