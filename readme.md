@@ -1,4 +1,4 @@
-SwiftUI Recipes
+## SwiftUI Recipes
 
 This is like a cooking book.
 provides recipes to perform certain action on SwiftUI
@@ -7,8 +7,21 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 
 ## Sections:
 
-Lists: Diferent approaches on using lists, diferent applicacionts and appearencce modifiers
+- Lists: Diferent approaches on using lists, diferent applicacionts and appearencce modifiers
+- Grids&Stacks: Different uses on Grids and Stacks to adjust views to diferent devices
+- Gestures: Diferent implementations on how to handle images to add diferent features
 
-Grids&Stacks: Different uses on Grids and Stacks to adjust views to diferent devices
 
-Gestures: Diferent implementations on how to handle images to add diferent features
+## Planed Sections(to add):
+- Data Flow
+- Graphics, Shapes, Paths and Effects
+- Navigation
+- XcodePreviews
+- Sheets
+- Pickers
+- Maps
+- UIKit and SwiftUI Interoperability
+- Testing
+- SwiftUI and MVVM
+- SwifUI and CoreData
+- SwiftUI and Firebase
