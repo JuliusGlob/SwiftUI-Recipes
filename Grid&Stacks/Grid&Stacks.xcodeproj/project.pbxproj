@@ -13,6 +13,7 @@
 		3010FF1E27398140009848D4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3010FF1D27398140009848D4 /* Preview Assets.xcassets */; };
 		3010FF272739817D009848D4 /* DisplayInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF262739817D009848D4 /* DisplayInGrid.swift */; };
 		3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */; };
+		3010FF2B27399224009848D4 /* matchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3010FF1F27398140009848D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3010FF262739817D009848D4 /* DisplayInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInGrid.swift; sourceTree = "<group>"; };
 		3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedViewsGrid.swift; sourceTree = "<group>"; };
+		3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchedGeometryEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				3010FF262739817D009848D4 /* DisplayInGrid.swift */,
 				3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */,
+				3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */,
 			);
 			path = "Views 1-4";
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3010FF272739817D009848D4 /* DisplayInGrid.swift in Sources */,
+				3010FF2B27399224009848D4 /* matchedGeometryEffect.swift in Sources */,
 				3010FF192739813E009848D4 /* ContentView.swift in Sources */,
 				3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */,
 				3010FF172739813E009848D4 /* Grid_StacksApp.swift in Sources */,
