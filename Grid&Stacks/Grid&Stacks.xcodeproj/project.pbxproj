@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,8 @@
 		3010FF272739817D009848D4 /* DisplayInGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF262739817D009848D4 /* DisplayInGrid.swift */; };
 		3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */; };
 		3010FF2B27399224009848D4 /* matchedGeometryEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */; };
+		3010FF2D27399BF8009848D4 /* WrapHstackMultiline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */; };
+		3010FF302739A4E0009848D4 /* LoremSwiftum in Frameworks */ = {isa = PBXBuildFile; productRef = 3010FF2F2739A4E0009848D4 /* LoremSwiftum */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,7 @@
 		3010FF262739817D009848D4 /* DisplayInGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayInGrid.swift; sourceTree = "<group>"; };
 		3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedViewsGrid.swift; sourceTree = "<group>"; };
 		3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = matchedGeometryEffect.swift; sourceTree = "<group>"; };
+		3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WrapHstackMultiline.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +36,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3010FF302739A4E0009848D4 /* LoremSwiftum in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +86,7 @@
 				3010FF262739817D009848D4 /* DisplayInGrid.swift */,
 				3010FF2827398A6C009848D4 /* PinnedViewsGrid.swift */,
 				3010FF2A27399224009848D4 /* matchedGeometryEffect.swift */,
+				3010FF2C27399BF8009848D4 /* WrapHstackMultiline.swift */,
 			);
 			path = "Views 1-4";
 			sourceTree = "<group>";
@@ -102,6 +107,9 @@
 			dependencies = (
 			);
 			name = "Grid&Stacks";
+			packageProductDependencies = (
+				3010FF2F2739A4E0009848D4 /* LoremSwiftum */,
+			);
 			productName = "Grid&Stacks";
 			productReference = 3010FF132739813E009848D4 /* Grid&Stacks.app */;
 			productType = "com.apple.product-type.application";
@@ -129,6 +137,9 @@
 				Base,
 			);
 			mainGroup = 3010FF0A2739813D009848D4;
+			packageReferences = (
+				3010FF2E2739A4E0009848D4 /* XCRemoteSwiftPackageReference "LoremSwiftum" */,
+			);
 			productRefGroup = 3010FF142739813E009848D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -160,6 +171,7 @@
 				3010FF192739813E009848D4 /* ContentView.swift in Sources */,
 				3010FF2927398A6C009848D4 /* PinnedViewsGrid.swift in Sources */,
 				3010FF172739813E009848D4 /* Grid_StacksApp.swift in Sources */,
+				3010FF2D27399BF8009848D4 /* WrapHstackMultiline.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +360,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3010FF2E2739A4E0009848D4 /* XCRemoteSwiftPackageReference "LoremSwiftum" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lukaskubanek/LoremSwiftum";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3010FF2F2739A4E0009848D4 /* LoremSwiftum */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3010FF2E2739A4E0009848D4 /* XCRemoteSwiftPackageReference "LoremSwiftum" */;
+			productName = LoremSwiftum;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3010FF0B2739813D009848D4 /* Project object */;
 }
