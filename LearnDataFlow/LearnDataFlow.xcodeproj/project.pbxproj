@@ -14,6 +14,10 @@
 		309D7972273AB7A600DAE77D /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7971273AB7A600DAE77D /* AddItemView.swift */; };
 		309D7976273ABBEA00DAE77D /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7975273ABBEA00DAE77D /* GlobalState.swift */; };
 		309D7978273ABD3D00DAE77D /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7977273ABD3D00DAE77D /* Counter.swift */; };
+		309D7984273AD75400DAE77D /* ImageDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7983273AD75400DAE77D /* ImageDL.swift */; };
+		309D7986273AD77300DAE77D /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7985273AD77300DAE77D /* ImageLoader.swift */; };
+		309D7988273AD83E00DAE77D /* URLImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7987273AD83E00DAE77D /* URLImage.swift */; };
+		309D798B273ADD4000DAE77D /* ApplicationStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D798A273ADD4000DAE77D /* ApplicationStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		309D7971273AB7A600DAE77D /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		309D7975273ABBEA00DAE77D /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 		309D7977273ABD3D00DAE77D /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		309D7983273AD75400DAE77D /* ImageDL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDL.swift; sourceTree = "<group>"; };
+		309D7985273AD77300DAE77D /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		309D7987273AD83E00DAE77D /* URLImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLImage.swift; sourceTree = "<group>"; };
+		309D798A273ADD4000DAE77D /* ApplicationStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,8 @@
 			children = (
 				309D7974273ABB9A00DAE77D /* ImplementGlobalStateView */,
 				309D7973273ABB1100DAE77D /* PassDataUsingBindingsViews */,
+				309D7982273AD73600DAE77D /* DownloadAndDisplayImage */,
+				309D7989273ADD0700DAE77D /* AppStorage */,
 				309D7966273AB76900DAE77D /* Assets.xcassets */,
 				309D796B273AB76900DAE77D /* Info.plist */,
 				309D7968273AB76900DAE77D /* Preview Content */,
@@ -92,6 +102,24 @@
 				309D7977273ABD3D00DAE77D /* Counter.swift */,
 			);
 			path = ImplementGlobalStateView;
+			sourceTree = "<group>";
+		};
+		309D7982273AD73600DAE77D /* DownloadAndDisplayImage */ = {
+			isa = PBXGroup;
+			children = (
+				309D7983273AD75400DAE77D /* ImageDL.swift */,
+				309D7985273AD77300DAE77D /* ImageLoader.swift */,
+				309D7987273AD83E00DAE77D /* URLImage.swift */,
+			);
+			path = DownloadAndDisplayImage;
+			sourceTree = "<group>";
+		};
+		309D7989273ADD0700DAE77D /* AppStorage */ = {
+			isa = PBXGroup;
+			children = (
+				309D798A273ADD4000DAE77D /* ApplicationStorage.swift */,
+			);
+			path = AppStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,11 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				309D7986273AD77300DAE77D /* ImageLoader.swift in Sources */,
 				309D7978273ABD3D00DAE77D /* Counter.swift in Sources */,
 				309D7965273AB76800DAE77D /* ContentView.swift in Sources */,
 				309D7972273AB7A600DAE77D /* AddItemView.swift in Sources */,
 				309D7976273ABBEA00DAE77D /* GlobalState.swift in Sources */,
 				309D7963273AB76800DAE77D /* LearnDataFlowApp.swift in Sources */,
+				309D798B273ADD4000DAE77D /* ApplicationStorage.swift in Sources */,
+				309D7984273AD75400DAE77D /* ImageDL.swift in Sources */,
+				309D7988273AD83E00DAE77D /* URLImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
