@@ -14,6 +14,9 @@
 		309D7972273AB7A600DAE77D /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7971273AB7A600DAE77D /* AddItemView.swift */; };
 		309D7976273ABBEA00DAE77D /* GlobalState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7975273ABBEA00DAE77D /* GlobalState.swift */; };
 		309D7978273ABD3D00DAE77D /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7977273ABD3D00DAE77D /* Counter.swift */; };
+		309D797B273AC4FE00DAE77D /* OptionalBindings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D797A273AC4FE00DAE77D /* OptionalBindings.swift */; };
+		309D797E273AC68D00DAE77D /* ListenStateChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D797D273AC68D00DAE77D /* ListenStateChanges.swift */; };
+		309D7981273ACB6900DAE77D /* OnReceiveModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D7980273ACB6900DAE77D /* OnReceiveModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		309D7971273AB7A600DAE77D /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		309D7975273ABBEA00DAE77D /* GlobalState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalState.swift; sourceTree = "<group>"; };
 		309D7977273ABD3D00DAE77D /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		309D797A273AC4FE00DAE77D /* OptionalBindings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalBindings.swift; sourceTree = "<group>"; };
+		309D797D273AC68D00DAE77D /* ListenStateChanges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenStateChanges.swift; sourceTree = "<group>"; };
+		309D7980273ACB6900DAE77D /* OnReceiveModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnReceiveModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +64,11 @@
 		309D7961273AB76800DAE77D /* LearnDataFlow */ = {
 			isa = PBXGroup;
 			children = (
-				309D7974273ABB9A00DAE77D /* ImplementGlobalStateView */,
 				309D7973273ABB1100DAE77D /* PassDataUsingBindingsViews */,
+				309D7974273ABB9A00DAE77D /* ImplementGlobalStateView */,
+				309D7979273AC48E00DAE77D /* OptionalBindings */,
+				309D797C273AC65600DAE77D /* ListenStateChangeonChange */,
+				309D797F273ACB3B00DAE77D /* ListenNotificationChanges */,
 				309D7966273AB76900DAE77D /* Assets.xcassets */,
 				309D796B273AB76900DAE77D /* Info.plist */,
 				309D7968273AB76900DAE77D /* Preview Content */,
@@ -92,6 +101,30 @@
 				309D7977273ABD3D00DAE77D /* Counter.swift */,
 			);
 			path = ImplementGlobalStateView;
+			sourceTree = "<group>";
+		};
+		309D7979273AC48E00DAE77D /* OptionalBindings */ = {
+			isa = PBXGroup;
+			children = (
+				309D797A273AC4FE00DAE77D /* OptionalBindings.swift */,
+			);
+			path = OptionalBindings;
+			sourceTree = "<group>";
+		};
+		309D797C273AC65600DAE77D /* ListenStateChangeonChange */ = {
+			isa = PBXGroup;
+			children = (
+				309D797D273AC68D00DAE77D /* ListenStateChanges.swift */,
+			);
+			path = ListenStateChangeonChange;
+			sourceTree = "<group>";
+		};
+		309D797F273ACB3B00DAE77D /* ListenNotificationChanges */ = {
+			isa = PBXGroup;
+			children = (
+				309D7980273ACB6900DAE77D /* OnReceiveModifier.swift */,
+			);
+			path = ListenNotificationChanges;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,8 +197,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				309D7978273ABD3D00DAE77D /* Counter.swift in Sources */,
+				309D7981273ACB6900DAE77D /* OnReceiveModifier.swift in Sources */,
+				309D797E273AC68D00DAE77D /* ListenStateChanges.swift in Sources */,
 				309D7965273AB76800DAE77D /* ContentView.swift in Sources */,
 				309D7972273AB7A600DAE77D /* AddItemView.swift in Sources */,
+				309D797B273AC4FE00DAE77D /* OptionalBindings.swift in Sources */,
 				309D7976273ABBEA00DAE77D /* GlobalState.swift in Sources */,
 				309D7963273AB76800DAE77D /* LearnDataFlowApp.swift in Sources */,
 			);
