@@ -10,10 +10,10 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Lists: Diferent approaches on using lists, diferent applicacionts and appearencce modifiers
 - Grids&Stacks: Different uses on Grids and Stacks to adjust views to diferent devices
 - Gestures: Diferent implementations on how to handle images to add diferent features
+- Data Flow: @Binding, @EnvironmentObject, onChange, onReceive, ImageLoader, @AppStorage
 
 
 ## Planed Sections(to add):
-- Data Flow
 - Graphics, Shapes, Paths and Effects
 - Navigation
 - XcodePreviews
