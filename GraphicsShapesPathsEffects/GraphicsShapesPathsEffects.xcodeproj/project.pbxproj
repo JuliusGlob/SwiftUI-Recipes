@@ -16,6 +16,8 @@
 		309D79AF273AF30800DAE77D /* ShapeVIews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D79AE273AF30800DAE77D /* ShapeVIews.swift */; };
 		309D79B2273AF48200DAE77D /* LineGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D79B1273AF48200DAE77D /* LineGraphView.swift */; };
 		309D79B5273AFA5600DAE77D /* BarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D79B4273AFA5600DAE77D /* BarChartView.swift */; };
+		309D79B8273B0B7700DAE77D /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D79B7273B0B7700DAE77D /* RatingView.swift */; };
+		309D79BB273BF67A00DAE77D /* BlurEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309D79BA273BF67A00DAE77D /* BlurEffectView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		309D79AE273AF30800DAE77D /* ShapeVIews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeVIews.swift; sourceTree = "<group>"; };
 		309D79B1273AF48200DAE77D /* LineGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraphView.swift; sourceTree = "<group>"; };
 		309D79B4273AFA5600DAE77D /* BarChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarChartView.swift; sourceTree = "<group>"; };
+		309D79B7273B0B7700DAE77D /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		309D79BA273BF67A00DAE77D /* BlurEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurEffectView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +66,8 @@
 		309D7997273AE58F00DAE77D /* GraphicsShapesPathsEffects */ = {
 			isa = PBXGroup;
 			children = (
+				309D79B9273BF59600DAE77D /* BlurEffect */,
+				309D79B6273B0B6300DAE77D /* Ratings */,
 				309D79B3273AFA3C00DAE77D /* BarChart */,
 				309D79B0273AF46500DAE77D /* LineGraph */,
 				309D79AD273AF2F100DAE77D /* Shapes */,
@@ -122,6 +128,22 @@
 				309D79B4273AFA5600DAE77D /* BarChartView.swift */,
 			);
 			path = BarChart;
+			sourceTree = "<group>";
+		};
+		309D79B6273B0B6300DAE77D /* Ratings */ = {
+			isa = PBXGroup;
+			children = (
+				309D79B7273B0B7700DAE77D /* RatingView.swift */,
+			);
+			path = Ratings;
+			sourceTree = "<group>";
+		};
+		309D79B9273BF59600DAE77D /* BlurEffect */ = {
+			isa = PBXGroup;
+			children = (
+				309D79BA273BF67A00DAE77D /* BlurEffectView.swift */,
+			);
+			path = BlurEffect;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +218,9 @@
 				309D79AC273AE85900DAE77D /* RoundedCorners.swift in Sources */,
 				309D79AF273AF30800DAE77D /* ShapeVIews.swift in Sources */,
 				309D799B273AE58F00DAE77D /* ContentView.swift in Sources */,
+				309D79B8273B0B7700DAE77D /* RatingView.swift in Sources */,
 				309D7999273AE58F00DAE77D /* GraphicsShapesPathsEffectsApp.swift in Sources */,
+				309D79BB273BF67A00DAE77D /* BlurEffectView.swift in Sources */,
 				309D79B5273AFA5600DAE77D /* BarChartView.swift in Sources */,
 				309D79A9273AE66500DAE77D /* GradientView.swift in Sources */,
 				309D79B2273AF48200DAE77D /* LineGraphView.swift in Sources */,
@@ -332,7 +356,7 @@
 				DEVELOPMENT_TEAM = 3AZ6WZHZNJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GraphicsShapesPathsEffects/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,7 +378,7 @@
 				DEVELOPMENT_TEAM = 3AZ6WZHZNJ;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GraphicsShapesPathsEffects/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
