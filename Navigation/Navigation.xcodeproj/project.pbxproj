@@ -22,6 +22,7 @@
 		30EAD933273C17CB005B7806 /* ViewC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD932273C17CB005B7806 /* ViewC.swift */; };
 		30EAD936273C2394005B7806 /* AddingButtonsToNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD935273C2394005B7806 /* AddingButtonsToNav.swift */; };
 		30EAD939273C29B6005B7806 /* AddingImageToNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD938273C29B6005B7806 /* AddingImageToNav.swift */; };
+		30EAD93C273C2CDE005B7806 /* PaginationSwiftUi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EAD93B273C2CDE005B7806 /* PaginationSwiftUi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		30EAD932273C17CB005B7806 /* ViewC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewC.swift; sourceTree = "<group>"; };
 		30EAD935273C2394005B7806 /* AddingButtonsToNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingButtonsToNav.swift; sourceTree = "<group>"; };
 		30EAD938273C29B6005B7806 /* AddingImageToNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingImageToNav.swift; sourceTree = "<group>"; };
+		30EAD93B273C2CDE005B7806 /* PaginationSwiftUi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaginationSwiftUi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		309D79C7273BFC9500DAE77D /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				30EAD93A273C2CC8005B7806 /* PaginationSwiftUI */,
 				30EAD937273C2996005B7806 /* AddImageToNavTitle */,
 				30EAD934273C22FC005B7806 /* AddItemButtonsToNav */,
 				30EAD92D273C1786005B7806 /* UnwindNavigation */,
@@ -150,6 +153,14 @@
 			path = AddImageToNavTitle;
 			sourceTree = "<group>";
 		};
+		30EAD93A273C2CC8005B7806 /* PaginationSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				30EAD93B273C2CDE005B7806 /* PaginationSwiftUi.swift */,
+			);
+			path = PaginationSwiftUI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,6 +233,7 @@
 				309D79D9273BFCFA00DAE77D /* NavView.swift in Sources */,
 				30EAD931273C17C3005B7806 /* ViewB.swift in Sources */,
 				30EAD92F273C17B9005B7806 /* ViewA.swift in Sources */,
+				30EAD93C273C2CDE005B7806 /* PaginationSwiftUi.swift in Sources */,
 				30EAD925273BFEE7005B7806 /* ContentList.swift in Sources */,
 				30EAD92A273C0BEC005B7806 /* ProgramNavView.swift in Sources */,
 				309D79DB273BFD3000DAE77D /* NavDetailView.swift in Sources */,
