@@ -12,7 +12,7 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Gestures: Diferent implementations on how to handle images to add diferent features
 - Data Flow: @Binding, @EnvironmentObject, onChange, onReceive, ImageLoader, @AppStorage
 - Graphics, Shapes, Paths and Effects
-- Navigation
+- Navigation: Navigate, pass data, unwind, nav buttons, pagination
 
 
 ## Planed Sections(to add):
