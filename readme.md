@@ -13,11 +13,11 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Data Flow: @Binding, @EnvironmentObject, onChange, onReceive, ImageLoader, @AppStorage
 - Graphics, Shapes, Paths and Effects
 - Navigation: Navigate, pass data, unwind, nav buttons, pagination
+- Sheets: open/close, multiple sheets, Diferent sizes
 
 
 ## Planed Sections(to add):
-- XcodePreviews
-- Sheets
+
 - Pickers
 - Maps
 - UIKit and SwiftUI Interoperability
@@ -25,3 +25,4 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - SwiftUI and MVVM
 - SwifUI and CoreData
 - SwiftUI and Firebase
+- XcodePreviews(not very useful)
