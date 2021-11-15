@@ -11,6 +11,12 @@
 		303971032742C18B00D013BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971022742C18B00D013BC /* ContentView.swift */; };
 		303971052742C18D00D013BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303971042742C18D00D013BC /* Assets.xcassets */; };
 		303971082742C18D00D013BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303971072742C18D00D013BC /* Preview Assets.xcassets */; };
+		303971142742C28B00D013BC /* DisplayMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971132742C28B00D013BC /* DisplayMap.swift */; };
+		303971162742C4AC00D013BC /* AddAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971152742C4AC00D013BC /* AddAnnotations.swift */; };
+		303971182742D46700D013BC /* CustomAnnotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971172742D46700D013BC /* CustomAnnotations.swift */; };
+		3039711A2742D79300D013BC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971192742D79300D013BC /* LocationManager.swift */; };
+		3039711C2742D89100D013BC /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711B2742D89100D013BC /* LocationView.swift */; };
+		3039711E2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711D2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift */; };
 		303971202742E1C300D013BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711F2742E1C300D013BC /* MapView.swift */; };
 		303971222742E2A600D013BC /* ChangeMapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971212742E2A600D013BC /* ChangeMapType.swift */; };
 /* End PBXBuildFile section */
@@ -21,6 +27,12 @@
 		303971022742C18B00D013BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303971042742C18D00D013BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303971072742C18D00D013BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		303971132742C28B00D013BC /* DisplayMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayMap.swift; sourceTree = "<group>"; };
+		303971152742C4AC00D013BC /* AddAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAnnotations.swift; sourceTree = "<group>"; };
+		303971172742D46700D013BC /* CustomAnnotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotations.swift; sourceTree = "<group>"; };
+		303971192742D79300D013BC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		3039711B2742D89100D013BC /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
+		3039711D2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
 		3039711F2742E1C300D013BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		303971212742E2A600D013BC /* ChangeMapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMapType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +91,7 @@
 		3039710E2742C19600D013BC /* DisplayMap */ = {
 			isa = PBXGroup;
 			children = (
+				303971132742C28B00D013BC /* DisplayMap.swift */,
 			);
 			path = DisplayMap;
 			sourceTree = "<group>";
@@ -86,6 +99,7 @@
 		3039710F2742C1A600D013BC /* AddAnnotations */ = {
 			isa = PBXGroup;
 			children = (
+				303971152742C4AC00D013BC /* AddAnnotations.swift */,
 			);
 			path = AddAnnotations;
 			sourceTree = "<group>";
@@ -93,6 +107,7 @@
 		303971102742C1B300D013BC /* CustomAnnotations */ = {
 			isa = PBXGroup;
 			children = (
+				303971172742D46700D013BC /* CustomAnnotations.swift */,
 			);
 			path = CustomAnnotations;
 			sourceTree = "<group>";
@@ -100,6 +115,9 @@
 		303971112742C1D300D013BC /* UserLocation */ = {
 			isa = PBXGroup;
 			children = (
+				303971192742D79300D013BC /* LocationManager.swift */,
+				3039711B2742D89100D013BC /* LocationView.swift */,
+				3039711D2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift */,
 			);
 			path = UserLocation;
 			sourceTree = "<group>";
@@ -185,8 +203,14 @@
 			files = (
 				303971222742E2A600D013BC /* ChangeMapType.swift in Sources */,
 				303971032742C18B00D013BC /* ContentView.swift in Sources */,
+				303971182742D46700D013BC /* CustomAnnotations.swift in Sources */,
+				3039711C2742D89100D013BC /* LocationView.swift in Sources */,
 				303971202742E1C300D013BC /* MapView.swift in Sources */,
 				303971012742C18B00D013BC /* MapsApp.swift in Sources */,
+				303971142742C28B00D013BC /* DisplayMap.swift in Sources */,
+				303971162742C4AC00D013BC /* AddAnnotations.swift in Sources */,
+				3039711A2742D79300D013BC /* LocationManager.swift in Sources */,
+				3039711E2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +344,7 @@
 				DEVELOPMENT_TEAM = 3AZ6WZHZNJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -349,6 +374,7 @@
 				DEVELOPMENT_TEAM = 3AZ6WZHZNJ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "This app requires your location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
