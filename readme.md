@@ -16,10 +16,10 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Sheets: open/close, multiple sheets, Diferent sizes
 - Pickers Picker View, SegmentedControl (withenums), CameraPicker
 - Maps: Display, add Pins, UserLocation, MapTypes
+- UIKit and SwiftUI Interoperability: mounting an uikit view on swiftui and viceversa
 
 ## Planed Sections(to add):
 
-- UIKit and SwiftUI Interoperability
 - Testing
 - SwiftUI and MVVM
 - SwifUI and CoreData
