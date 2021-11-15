@@ -14,11 +14,11 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Graphics, Shapes, Paths and Effects
 - Navigation: Navigate, pass data, unwind, nav buttons, pagination
 - Sheets: open/close, multiple sheets, Diferent sizes
+- Pickers Picker View, SegmentedControl (withenums), CameraPicker
 
 
 ## Planed Sections(to add):
 
-- Pickers
 - Maps
 - UIKit and SwiftUI Interoperability
 - Testing
