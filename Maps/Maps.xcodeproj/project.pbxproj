@@ -11,6 +11,8 @@
 		303971032742C18B00D013BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971022742C18B00D013BC /* ContentView.swift */; };
 		303971052742C18D00D013BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303971042742C18D00D013BC /* Assets.xcassets */; };
 		303971082742C18D00D013BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 303971072742C18D00D013BC /* Preview Assets.xcassets */; };
+		303971202742E1C300D013BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711F2742E1C300D013BC /* MapView.swift */; };
+		303971222742E2A600D013BC /* ChangeMapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971212742E2A600D013BC /* ChangeMapType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		303971022742C18B00D013BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		303971042742C18D00D013BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		303971072742C18D00D013BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3039711F2742E1C300D013BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		303971212742E2A600D013BC /* ChangeMapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMapType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 		303971122742C1E000D013BC /* ChangeMapType */ = {
 			isa = PBXGroup;
 			children = (
+				3039711F2742E1C300D013BC /* MapView.swift */,
+				303971212742E2A600D013BC /* ChangeMapType.swift */,
 			);
 			path = ChangeMapType;
 			sourceTree = "<group>";
@@ -177,7 +183,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303971222742E2A600D013BC /* ChangeMapType.swift in Sources */,
 				303971032742C18B00D013BC /* ContentView.swift in Sources */,
+				303971202742E1C300D013BC /* MapView.swift in Sources */,
 				303971012742C18B00D013BC /* MapsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
