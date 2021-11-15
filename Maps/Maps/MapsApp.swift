@@ -11,7 +11,7 @@ import SwiftUI
 struct MapsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LocationView()
         }
     }
 }
