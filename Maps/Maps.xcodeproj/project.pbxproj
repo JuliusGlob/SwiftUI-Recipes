@@ -17,6 +17,8 @@
 		3039711A2742D79300D013BC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971192742D79300D013BC /* LocationManager.swift */; };
 		3039711C2742D89100D013BC /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711B2742D89100D013BC /* LocationView.swift */; };
 		3039711E2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711D2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift */; };
+		303971202742E1C300D013BC /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3039711F2742E1C300D013BC /* MapView.swift */; };
+		303971222742E2A600D013BC /* ChangeMapType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 303971212742E2A600D013BC /* ChangeMapType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		303971192742D79300D013BC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		3039711B2742D89100D013BC /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		3039711D2742D8EF00D013BC /* MKCoordinateRegion+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Extensions.swift"; sourceTree = "<group>"; };
+		3039711F2742E1C300D013BC /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		303971212742E2A600D013BC /* ChangeMapType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeMapType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,8 @@
 		303971122742C1E000D013BC /* ChangeMapType */ = {
 			isa = PBXGroup;
 			children = (
+				3039711F2742E1C300D013BC /* MapView.swift */,
+				303971212742E2A600D013BC /* ChangeMapType.swift */,
 			);
 			path = ChangeMapType;
 			sourceTree = "<group>";
@@ -195,9 +201,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				303971222742E2A600D013BC /* ChangeMapType.swift in Sources */,
 				303971032742C18B00D013BC /* ContentView.swift in Sources */,
 				303971182742D46700D013BC /* CustomAnnotations.swift in Sources */,
 				3039711C2742D89100D013BC /* LocationView.swift in Sources */,
+				303971202742E1C300D013BC /* MapView.swift in Sources */,
 				303971012742C18B00D013BC /* MapsApp.swift in Sources */,
 				303971142742C28B00D013BC /* DisplayMap.swift in Sources */,
 				303971162742C4AC00D013BC /* AddAnnotations.swift in Sources */,
