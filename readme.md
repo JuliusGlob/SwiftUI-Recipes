@@ -17,11 +17,7 @@ Every Project will contain as many SwiftUI views as there are recipes in that se
 - Pickers Picker View, SegmentedControl (withenums), CameraPicker
 - Maps: Display, add Pins, UserLocation, MapTypes
 - UIKit and SwiftUI Interoperability: mounting an uikit view on swiftui and viceversa
-
-## Planed Sections(to add):
-
-- Testing
+- Testing: SwiftUI view tests
 - SwiftUI and MVVM
 - SwifUI and CoreData
-- SwiftUI and Firebase
-- XcodePreviews(not very useful)
+
